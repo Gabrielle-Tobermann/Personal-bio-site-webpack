@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  height: 120px;
+  height: 130px;
   background-image: linear-gradient(180deg, #ffffff 36.67%, #f0f0f0 36.67%, #f0f0f0 50%, #ffffff 50%, #ffffff 86.67%, #f0f0f0 86.67%, #f0f0f0 100%);
   background-size: 30.00px 30.00px; 
 }
@@ -15,14 +15,12 @@ nav {
 #navLinks {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style-type: none; 
 }
 
 #navLinks li {
   padding-top: 25px;
-  padding-left:50px;
-  padding-right: 50px;
   font-size: 40px;
   font-family: 'Satisfy', cursive;
 }
@@ -33,7 +31,20 @@ header {
   align-items: center;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
-  height: 400px;
+  height: 688px;
+  color: Black;
+  background-color: #f0f0f0;
+}
+header h1 {
+  font-size: 70px;
+}
+
+header h2 {
+  font-size: 50px;
+}
+
+img {
+  height: 120px;
 }
 
 #bioPage {
