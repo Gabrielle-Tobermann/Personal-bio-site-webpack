@@ -1,0 +1,32 @@
+{
+  "-MVm9clNlSe1aCWphEHF": {
+    "title": "TAMAGOTCHI",
+    "screenshot": "https://user-images.githubusercontent.com/76187279/109723189-5e640200-7b73-11eb-9d28-ed73715beecf.png",
+    "description": "This app is a re-creation of the 90's Tamagotchi. It allows users to take care of a digital pet. The pet can eat, sleep, fight or play. It is perfect for teaching children how to take care of a pet and responsibilities.", 
+    "technologiesUsed":
+      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://gt-tamagotchi.netlify.app/",
+    "githubUrl": "https://github.com/Gabrielle-Tobermann/ASSIGNMENT-Tamagotchi"
+  }, 
+  "-MVmAu0UvlcOJLTn8Xtr": {
+    "title": "BEAR WATCHER",
+    "screenshot": "https://user-images.githubusercontent.com/76187279/108918458-079c7c80-75f7-11eb-98a2-f221cdca7637.png",
+    "description": "This app allows users to keep track of bears seen in the wild.", 
+    "technologiesUsed":
+      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://gt-bear-watcher.netlify.app/",
+    "githubUrl": "https://github.com/Gabrielle-Tobermann/ASSIGNMENT-Bear-Watcher"
+  }, 
+  "-MVmBfirBAQNrGNyX4c7": {
+    "title": "SORTING HAT",
+    "screenshot": "https://user-images.githubusercontent.com/76187279/107101798-552e8200-67cd-11eb-89d4-7e54ffffc1b4.png",
+    "description": "The purpose of the application is to assign a person to one of the four Houses in Harry Potter. Once the user's name is submitted, a card appears with the House name, color and values.", 
+    "technologiesUsed":
+      "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": " https://gt-sorting-hat.netlify.app/",
+    "githubUrl": "https://github.com/Gabrielle-Tobermann/sorting-hat"
+  }
+}
