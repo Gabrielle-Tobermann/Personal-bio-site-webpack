@@ -5,22 +5,21 @@ const createProjectCards = (arr) => {
 
   for (let i = 0; i < arr.length; i += 1) {
     if (arr[i].available === true) {
-      domString += `<div class="card my-2" style="width: 18rem;" id=${i}>
-    <div class="img-container" style="background-image: url('${arr[i].screenshot}');"></div>
+      domString += `<div class="card my-2 border-0 mb-5 rounded bg-transparent" style="width: 572px;" id=${i}>
+      <img src="${arr[i].screenshot}" class="card-img-top" alt="..." id="card-image"></img>
     <div class="card-body">
-      <p class="card-text">${arr[i].title}</p>
+      <p class="card-text font-weight-bold" id="card-title">${arr[i].title}</p>
       <p class="card-text">${arr[i].description}</p>
       <p class="card-text">${arr[i].technologiesUsed}</p>
-      <p class="card-text">${arr[i].available}</p>
-      <p class="card-text">${arr[i].url}</p>
-      <p class="card-text">${arr[i].githubUrl}</p>
-      
+      <p class="card-text font-weight-bold">LINKS:</p>
+      <p class="card-text"><a href="${arr[i].url}"> ${arr[i].url}</a></p>
+      <p class="card-text"><a href="${arr[i].githubUrl}">${arr[i].githubUrl}</a></p> 
     </div>
   </div>`;
     }
   }
 
-  printToDom('#projectsPage', domString);
+  printToDom('#projects', domString);
 };
 
 export default createProjectCards;
