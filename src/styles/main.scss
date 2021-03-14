@@ -20,11 +20,19 @@ nav {
   list-style-type: none; 
 }
 
-#navLinks li {
+#navLinks button {
   padding-top: 25px;
   font-size: 40px;
   font-family: 'Raleway', sans-serif;
+  background-color: transparent;
+  border: none;
 }
+
+button :hover {
+  font-weight: bolder;
+}
+
+button:focus {outline:0;}
 
 header {
   display: flex;

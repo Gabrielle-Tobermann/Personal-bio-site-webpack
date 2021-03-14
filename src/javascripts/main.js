@@ -1,10 +1,9 @@
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
-import createProjectCards from './components/createProjectCards';
-import projects from './helpers/data/projectsData';
+import domBuilder from './components/domBuilder';
 
 const init = () => {
-  createProjectCards(projects);
+  domBuilder();
 };
 
 init();
