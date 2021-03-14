@@ -1,62 +1,182 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 body {
   background-color: white;
 }
 
 nav {
-  background-color: #004221;
-  color: white;
-  
-}
-
-h1 {
-  padding: 30px;
-  font-family: 'Times New Roman', Times, serif;
+  height: 130px;
+  background-image: linear-gradient(180deg, #ffffff 35.71%, #f0f0f0 35.71%, #f0f0f0 50%, #ffffff 50%, #ffffff 85.71%, #f0f0f0 85.71%, #f0f0f0 100%);
+  background-size: 28.00px 28.00px;
 }
 
 #navLinks {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   list-style-type: none; 
 }
 
-#navLinks li {
-  padding-left:50px;
-  padding-right: 50px;
-  padding-bottom: 20px;
-  font-size: 20px;
-  font-family: 'Courgette', cursive;
+#navLinks button {
+  padding-top: 25px;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  background-color: transparent;
+  border: none;
+}
+
+button :hover {
+  font-weight: bolder;
+}
+
+button:focus {outline:0;}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  height: 688px;
+  color: Black;
+  background-color: #f0f0f0;
+}
+header h1 {
+  font-size: 70px;
+}
+
+header h2 {
+  font-size: 50px;
+}
+
+ header img {
+  height: 140px;
 }
 
 #bioPage {
-  font-family: 'Times New Roman', Times, serif;
-  padding: 20px;
-  font-size: 18px;
-}
-
-#technologiesPage ul {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  height: 500px;
   display: flex;
-  flex-wrap: row wrap;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  padding-left: 24px;
 }
 
-#technologiesPage li {
-  list-style-type: none;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
+.bio-container {
+  display: flex;
+}
+
+#bioPage p {
+  margin: auto;
+  width: 75%
+}
+
+#bioPage img {
+  padding: 24px;
+  height: 400px;
+}
+
+#technologiesPage {
+  background-color: #f0f0f0;
+}
+
+.fab::before {
+  height: 80px;
+}
+
+.icon {
+  height: 95px;
+  width: 95px;
+}
+
+#technologies {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+#technologies p {
+  align-items: center;
+}
+
+#technologies i {
+  align-items: center;
+}
+
+#technologies img {
+  margin-top: 6px;
 }
 
 #projectsPage {
-  height: 400px;
-  padding: 20px;
+  height: fit-content;
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: #f0f0f0;
+  color: black;
+  text-align: center;
+}
+
+#projectsPage h2 {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#projects {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+
+#card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#card-image {
+  width: 572px;
+  height: 280px;
+  border: solid black 2px;
 }
 
 .page-footer {
   font-family: 'Times New Roman', Times, serif;
   padding-left: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 400px;
+  font-family: 'Raleway', sans-serif;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contactPage {
+  font-family: 'Raleway', sans-serif;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+#contactPage h2 {
+  font-size: 40px;
 }
