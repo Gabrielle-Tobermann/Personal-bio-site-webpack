@@ -9,8 +9,8 @@ body {
 
 nav {
   height: 130px;
-  background-image: linear-gradient(180deg, #ffffff 36.67%, #f0f0f0 36.67%, #f0f0f0 50%, #ffffff 50%, #ffffff 86.67%, #f0f0f0 86.67%, #f0f0f0 100%);
-  background-size: 30.00px 30.00px; 
+  background-image: linear-gradient(180deg, #ffffff 35.71%, #f0f0f0 35.71%, #f0f0f0 50%, #ffffff 50%, #ffffff 85.71%, #f0f0f0 85.71%, #f0f0f0 100%);
+  background-size: 28.00px 28.00px;
 }
 
 #navLinks {
@@ -23,7 +23,7 @@ nav {
 #navLinks li {
   padding-top: 25px;
   font-size: 40px;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -31,7 +31,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   height: 688px;
   color: Black;
   background-color: #f0f0f0;
@@ -53,9 +54,14 @@ header h2 {
   font-size: 22px;
   height: 500px;
   display: flex;
+  flex-direction: column;
   color: white;
   background-color: black;
   padding-left: 24px;
+}
+
+.bio-container {
+  display: flex;
 }
 
 #bioPage p {
@@ -65,19 +71,43 @@ header h2 {
 
 #bioPage img {
   padding: 24px;
+  height: 400px;
 }
 
-#technologiesPage ul {
+#technologiesPage {
+  background-color: #f0f0f0;
+}
+
+.fab::before {
+  height: 80px;
+}
+
+.icon {
+  height: 95px;
+  width: 95px;
+}
+
+#technologies {
   display: flex;
-  flex-wrap: row wrap;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
 }
 
-#technologiesPage li {
-  list-style-type: none;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
+#technologies p {
+  align-items: center;
+}
+
+#technologies i {
+  align-items: center;
+}
+
+#technologies img {
+  margin-top: 6px;
 }
 
 #projectsPage {
