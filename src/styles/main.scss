@@ -119,12 +119,58 @@ header h2 {
 }
 
 #projectsPage {
-  height: 400px;
-  padding: 20px;
+  height: fit-content;
+  padding-top: 50px;
+  padding-left: 20px;
+  background-color: #f0f0f0;
+  color: black;
+  text-align: center;
+}
+
+#projects {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+
+#card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+#card-image {
+  width: 572px;
+  height: 280px;
+  border: solid black 2px;
 }
 
 .page-footer {
   font-family: 'Times New Roman', Times, serif;
   padding-left: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 400px;
+  font-family: 'Raleway', sans-serif;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contactPage {
+  font-family: 'Raleway', sans-serif;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+#contactPage h2 {
+  font-size: 40px;
 }
