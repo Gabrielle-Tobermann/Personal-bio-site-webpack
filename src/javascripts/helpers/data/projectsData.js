@@ -21,7 +21,4 @@ const projects = [
   },
 ];
 
-// const getProjects = () => {
-// }
-
 export default projects;
