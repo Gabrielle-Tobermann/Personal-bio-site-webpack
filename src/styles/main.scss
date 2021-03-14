@@ -74,25 +74,40 @@ header h2 {
   height: 400px;
 }
 
-#technologiesPage ul {
-  display: flex;
-  flex-wrap: column wrap;
+#technologiesPage {
+  background-color: #f0f0f0;
 }
 
-.fab {
+.fab::before {
   height: 80px;
 }
 
-#git-icon {
-  height:80px;
+.icon {
+  height: 95px;
+  width: 95px;
 }
 
-#technologiesPage li {
-  list-style-type: none;
-  padding-left: 40px;
-  padding-right: 40px;
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
+#technologies {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 22px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+#technologies p {
+  align-items: center;
+}
+
+#technologies i {
+  align-items: center;
+}
+
+#technologies img {
+  margin-top: 6px;
 }
 
 #projectsPage {
